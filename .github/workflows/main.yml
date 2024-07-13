@@ -9,9 +9,6 @@ jobs:
         steps: 
         - uses: actions/checkout@v2
 
-        - name: Run test py
-          run: |
-            python3 test.py
         - name: Run sendmail py
           run: |
             python3 send_mail.py
